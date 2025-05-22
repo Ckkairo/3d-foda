@@ -1,0 +1,98 @@
+
+    .topbar {
+      position: fixed;
+      z-index: -1;
+      display: flex;
+      justify-content: space-between;
+      background: linear-gradient(to right, black, #9900ff);
+      color: white;
+      width: 100%;
+      padding: 15px;
+    }
+      .topbarprops {
+      color: white;
+    }
+
+    .botoeslogin
+    {
+      margin: 10px 0;
+      border: 2px solid white;
+      border-radius: 10px;
+      padding: 5px;
+      font-size: 18px;
+      background: linear-gradient(to right, #212, blue);
+      color: white;
+    }
+
+    .icones {
+    padding: 10px 35px;
+    height: 80px;
+    width: auto;
+    }
+
+    .educaveira {
+    margin: 35px 5px;
+    height: 30px;
+    width: auto;
+    }
+
+
+
+
+ body {
+      margin: 0px;
+      background: #1d1d1d;
+    }
+
+     .signup {
+      text-align: center;
+      padding: 40px 20px;
+      font-size: 20px;
+    }
+    .signup-bonito
+    {
+      padding: 15px;
+      border-radius: 30px;
+      border: 2px solid white;
+      background: linear-gradient(to right, #212, blue);
+      color: white;
+      margin: 15px;
+    }
+
+    .cards {
+      color:white;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: space-between; 
+        padding: 20px;
+        margin: 0 10%;
+    }
+
+     .materias {
+      z-index: -2;
+      position: fixed;
+      top: 200px;
+      color:white;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: space-between; 
+        padding: 20px;
+        margin: 0 5%;
+    }
+
+    .card {
+
+      background-color: #2a2a2a;
+      border-radius: 12px;
+      padding: 20px;
+      text-align: center;
+      max-width: 280px;
+
+    .icon {
+      width: 280px;
+      font-size: 40px;
+      margin-bottom: 10px;
+      color: #b983ff;
+    }

@@ -1,59 +1,18 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Educaveira</title>
- <style>
-    body {
-      margin: 0;
-    }
-
-    .topbar {
-      z-index: -2;
-      position: fixed;
-      display: flex;
-      justify-content: space-between;
-      background: linear-gradient(to right, black, #9900ff);
-      color: white;
-      font-size: 50px;
-      width: 100%;
-      padding: 15px;
-    }
-      .topbarprops {
-      color: white;
-      font-size: 20px;
-
-    }
-
-    .botoeslogin
-    {
-      border: 2px solid white;
-      border-radius: 10px;
-      padding: 5px;
-      font-size: 20px;
-      background: linear-gradient(to right, #212, blue);
-      color: white;
-    }
-
-    .icones {
-       padding: 10px 35px;
-    height: 80px;
-    }
-
-    .educaveira {
-    padding: 35px 0;
-     height: 30px;
-    }
-
- </style>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="style.css">
+  	<title>Educaveira</title>
 </head>
+
 <body>
 <div class="topbar">
   <div class="topbarprops">
-  <button class="botoeslogin">Cadastrar</button><br><br>
+    <b>
+  <button class="botoeslogin" onclick="window.location.href='cadastro.html'">Cadastrar</button><br>
    <button class="botoeslogin">Logar</button>
-
+    </b>
 </div>
 <div class="topbarprops">
 <img src="./img/educaveiratxt.png" class="educaveira">
@@ -64,6 +23,15 @@
 
 </div>
 </div>
+
+  <div class="materias">
+  <div class="card"> <div class="icon">Matematica</div> <img src="./img/educacao.png" class="icones"> <br>Educa-Cao</div>
+  <div class="card"> <div class="icon">Ciencias</div> <img src="./img/educaveira.png" class="icones"> <br>Educa-Veira</div>
+  <div class="card"> <div class="icon">História</div> <img src="./img/educasocrates.png" class="icones"> <br>Educa-Sócrates</div>
+  <div class="card"> <div class="icon">Geografia</div> <img src="./img/educaglobo.png" class="icones"> <br>Educa-Globo</div>
+  <div class="card"> <div class="icon">Fisica</div> <img src="./img/educafabio.png" class="icones"> <br>Educa-Fabio</div>
+  </div>
+
 
 </body>
 </html>
